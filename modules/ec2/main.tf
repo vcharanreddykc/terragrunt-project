@@ -1,5 +1,5 @@
 resource "aws_instance" "app" {
-  ami           = "ami-0c02fb55956c7d316" # Amazon Linux 2 us-east-1
+  ami           = "ami-0157af9aea2eef346" # Amazon Linux 2 us-east-1
   instance_type = var.instance_type
   subnet_id     = var.public_subnet_id
 
